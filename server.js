@@ -22,10 +22,6 @@ mongoose.connect(URI, {
   useFindAndModify:false
 })
 
-
-
-// app.use('/static', express.static(path.join(__dirname, 'public')))
-
 require("./routes/api.js")(app);
 require("./routes/view.js")(app);
 
