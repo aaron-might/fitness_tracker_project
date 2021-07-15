@@ -78,9 +78,11 @@ function populateChart(data) {
     },
     options: {
       responsive: true,
-      title: {
-        display: true,
-        text: 'Time Spent Working Out (Last 7 days)',
+      plugins:{
+        title: {
+          display: true,
+          text: 'Time Spent Working Out (Last 7 days)',
+        },
       },
       scales: {
         yAxes: [
@@ -140,9 +142,11 @@ function populateChart(data) {
       ],
     },
     options: {
-      title: {
-        display: true,
-        text: 'Pounds Lifted (Last 7 days)',
+      plugins:{
+        title: {
+          display: true,
+          text: 'Pounds Lifted (Last 7 days)',
+        },
       },
       scales: {
         yAxes: [
